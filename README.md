@@ -44,7 +44,9 @@ to auto-load on your sgml modes:
 
     (add-hook 'sgml-mode-hook 'zencoding-mode) ;; Auto-start on any markup modes
 
-Good to go.
+Good to go: place point in a zencoding snippet and press C-j to expand it (or 
+alternatively, alias your preferred keystroke to M-x zencoding-expand-line) and
+you'll transform your snippet into the appropriate tag structure. 
 
 # Examples
 
