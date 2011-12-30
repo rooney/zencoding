@@ -1,12 +1,13 @@
 ;;; zencoding-mode.el --- Unfold CSS-selector-like expressions to markup
-;;
+
 ;; Copyright (C) 2009, Chris Done
-;;
+
+;; Version: 0.5.1
 ;; Author: Chris Done <chrisdone@gmail.com>
-(defconst zencoding-mode:version "0.5")
-;; Last-Updated: 2009-11-20 Fri
+;; URL: https://github.com/rooney/zencoding
+;; Last-Updated: 2011-12-31 Sat
 ;; Keywords: convenience
-;;
+
 ;; This file is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
 ;; the Free Software Foundation; either version 3, or (at your option)
@@ -21,7 +22,7 @@
 ;; along with GNU Emacs; see the file COPYING.  If not, write to
 ;; the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
 ;; Boston, MA 02110-1301, USA.
-;;
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
 ;;; Commentary:
@@ -58,6 +59,8 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
 ;;; Code:
+
+(defconst zencoding-mode:version "0.5.1")
 
 ;; Include the trie data structure for caching
 ;(require 'zencoding-trie)
@@ -1057,3 +1060,5 @@ accept it or skip it."
                    (concat show "\n")))))
 
 (provide 'zencoding-mode)
+
+;;; zencoding-mode.el ends here
