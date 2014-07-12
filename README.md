@@ -31,7 +31,7 @@ See the [EmacsWiki for more background on this mode.](http://www.emacswiki.org/e
 Just make sure zencoding-mode.el is in your `load-path`, if you
 extracted zencoding-mode to a directory:
 
-    (add-to-list "~/emacs.d/zencoding-mode")
+    (add-to-list 'load-path "~/emacs.d/zencoding-mode")
 
 And then just require as normal:
 
